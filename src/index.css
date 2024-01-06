@@ -1,0 +1,33 @@
+
+@import url('https://fonts.googleapis.com/css2?family=Kalnia:wght@300;400;600&family=Montserrat:wght@600&display=swap');
+/* RESET */
+
+*{box-sizing: border-box;
+    margin-top: 0;
+    margin-bottom: 0;
+    margin-left: 0;
+    margin-right: 0;
+
+}
+html {
+    font-family: 'Montserrat';
+
+}
+body{
+    margin: 0;
+    background-image: url('/clouds-background.jpg');
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+ul{
+padding-left: 0;
+list-style: none;
+}
+img{
+    display: flex;
+}
+button{
+    cursor: pointer;
+    font-family: 'Kalnia';
+    font-weight: 600;
+}
