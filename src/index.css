@@ -2,7 +2,8 @@
 @import url('https://fonts.googleapis.com/css2?family=Kalnia:wght@300;400;600&family=Montserrat:wght@600&display=swap');
 /* RESET */
 
-*{box-sizing: border-box;
+*{
+    box-sizing: border-box;
     margin-top: 0;
     margin-bottom: 0;
     margin-left: 0;
@@ -20,8 +21,8 @@ body{
     background-repeat: no-repeat;
 }
 ul{
-padding-left: 0;
-list-style: none;
+    padding-left: 0;
+    list-style: none;
 }
 img{
     display: flex;
@@ -30,4 +31,12 @@ button{
     cursor: pointer;
     font-family: 'Kalnia';
     font-weight: 600;
+}
+
+@media screen and (max-width: 767px) {
+body{
+    background-image: url('/background-cell.jpg');
+    background-size: 80vh;
+}
+
 }
